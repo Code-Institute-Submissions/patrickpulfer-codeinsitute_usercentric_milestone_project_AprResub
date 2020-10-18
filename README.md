@@ -3,6 +3,10 @@ Website for PaddyOS - Submission to my first project at [Code Insitute](https://
 ---
 
 <br><br>
+<img src="https://img.shields.io/github/last-commit/patrickpulfer/codeinsitute_usercentric_milestone_project?style=for-the-badge">
+<img src="https://img.shields.io/github/repo-size/patrickpulfer/codeinsitute_usercentric_milestone_project?style=for-the-badge">
+<img src="https://img.shields.io/github/languages/count/patrickpulfer/codeinsitute_usercentric_milestone_project?style=for-the-badge">
+
 <a href="">
     <img src="./img/logo_paddy.png" alt="PaddyOS logo" title="PaddyOS" align="right" height="45" />
 </a>
