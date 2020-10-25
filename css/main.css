@@ -52,10 +52,34 @@
 
 
 /* Sections */
+
   #what_is > h2 {
     padding: 30px 10px;
     text-align: center;
   }
+
+  #features {
+    background-color: #5C7D61;
+    color: #F3F0F1;
+    text-align: center;
+    height: 100vh;
+}
+
+.feature_box {
+    height: 30vh;
+    padding: 10px;
+    display: flex;
+    align-items: center; 
+}
+
+.feature_box h4 {
+    color: #F3F0F1;
+}
+
+.feature_box img {
+    max-width: 100%;
+    max-height: 100%;
+}
 
   #download {
       background-color: #122D23;

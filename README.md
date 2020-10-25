@@ -120,3 +120,26 @@ Logo: Self created
 header background: https://unsplash.com/photos/9q3I8XhesQI
 
 PC background: https://www.hiclipart.com/free-transparent-background-png-clipart-msazr
+
+----
+
+Mentor:
+Stick to 3-4 sections
+Idea is novel
+Requirement to showcase wireframes (not mockups) / use balsamic
+Requirement of planes of UX and write on readme
+Contact form and validation is required and requires something saying thank you (bootstrap modal?, open new page?)
+- Dont overdo it
+- book right away mentor session
+
+
+Tablet
+Mobile
+Desktop
+
+-----------
+
+Questions:
+
+Where do upload wireframe? readme?
+
