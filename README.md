@@ -63,7 +63,7 @@ To be faithful to the structure established above, the overall website should be
 To avoid a lenghty readme file, please visit [Wireframing Project PaddyOS Website](https://codeinstitute.net) for further study into the skeleton of the website.
 
 
-### Surface
+### Surface Design
 
 To emphasize project being led by developers in Ireland, decision has been made to include a color scheme based on the green color as per below:
 * Main Color: <span style="color:#F3F0F1;background-color:#5C7D61;">#5C7D61</span>
@@ -77,33 +77,36 @@ Note that fonts and main "white" background is not exacly white but an easier to
 Logo: Every product/brand should have a logo, so I've created a quick logo based on color #27cc9d which would showcase a balanced shape and caos in form of lines: 
 <br> <img src="./img/logo_paddy.png" alt="PaddyOS logo" title="PaddyOS" height="45" />
 
-
-
-
-## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+## Features
+* Introduction Screen
+    * First section presented to user with minimalistic approach and buttons to most important sections
+* What is / Features page
+    * Section for end user to get an "at glance" overview of the software and it's capabilities
+* Download
+    * Download section to allow user download the software for installation
+* Contact Us Form
+    * Easy to use medium to contact developers for any queries or feedback
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+* Website is mobile friendly and optimized for right handed use (menu is on the right side)
+* Website compatible with Dark Mode (you can test with https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
+* Website is also optimized for faster loading thanks to Lazy Loading API (https://web.dev/browser-level-image-lazy-loading/)
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
+### Ideas / Future Features
+- Forum: Place where users can interact with developers or other users 
+- FAQ: Most commonly asked questions & answers in a searchable format
+- Newsletter or RSS
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+In this section 
 
 ### Tools Utilized during development of the website:
 * A desktop PC with Linux [Pop!_OS](https://pop.system76.com/) Operative System installed
 * [Visual Studio Code](https://code.visualstudio.com/) for manipulating .html .css and .md files
 * [GIMP](https://www.gimp.org/) or GNU Image Manipulation Program to manipulate images utilized in this project (example paste picture inside Laptop screen)
 * [WireframeSketcher](https://wireframesketcher.com/) to sketch visual aspect of website prior to development
+* [Github](https://github.com/) for version control, backup & deployment to Gitpages
 * The following browsers for compatibility & testing purposes (see Testing section for further details):
     * [Chromium](https://www.chromium.org/)
     * [Firefox](https://www.mozilla.org/en-US/firefox/new/)
@@ -123,83 +126,39 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - Icons utilized in this project are fetched from **Font Awesome**
 
 
+
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+***Work on Progress***
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+***Work on Progress***
 
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text under "Based on Linux" in the "What is PaddyOS" section is copied from [What is Linux article](https://www.linux.com/what-is-linux/). Citation on the paragraph has been marked with link to the same source.
 
 ### Media
-- The photos used in this site were obtained from ...
+- The background picture of the first section was fetched from https://unsplash.com/photos/9q3I8XhesQI
+- The Macbook picture was sourced from https://www.hiclipart.com/free-transparent-background-png-clipart-msazr and manipulated with GIMP to copy/paste a screenshot of my desktop
+- Pictures in Features section are screenshots taken from my own desktop
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
-
-
-Tools Used
-
-Bootstrap: https://getbootstrap.com/
-Font awesome:
-
-
-
-
-
-white background: F3F0F1
-Dark Shades, Cards, dark background and icons: 122D23
-Main : 5C7D61
-Light Accents: 8DB49E
-Dark Accent: 7B9E8C
-
-
-Images:
-Logo: Self created
-header background: https://unsplash.com/photos/9q3I8XhesQI
-
-PC background: https://www.hiclipart.com/free-transparent-background-png-clipart-msazr
+- I'm a big fan of Linux and open source colaboration. My inspiration came from the great work on desktop Linux by project like Ubuntu (https://ubuntu.com/), Manjaro (https://manjaro.org/) and Debian (https://linuxmint.com/)
 
 ----
 
-Mentor:
+Mentor Feedback:
 Stick to 3-4 sections
 Idea is novel
 Requirement to showcase wireframes (not mockups) / use balsamic
 Requirement of planes of UX and write on readme
 Contact form and validation is required and requires something saying thank you (bootstrap modal?, open new page?)
 - Dont overdo it
-- book right away mentor session
 How to run locally explanation (how to git clone and double click html) 
 testing (tools, how to test, screenshots? gif?)
 
@@ -209,12 +168,3 @@ Mobile
 Desktop
 
 -----------
-
-Questions:
-
-Where do upload wireframe? readme?
-
-
-
-Scope:
-
