@@ -14,7 +14,7 @@
     }
 
     section {
-        padding: 50px 10px;
+        padding: 10px;
     }
 
 
@@ -53,32 +53,32 @@
 
 /* Sections */
 
-  #what_is > h2 {
-    padding: 30px 10px;
-    text-align: center;
-  }
+    #what_is > h2 {
+        text-align: center;
+        padding: 40px 0px 10px 0px;
+    }
+
+    #what_is .row {
+        padding-bottom: 10px;
+    }
 
   #features {
     background-color: #5C7D61;
     color: #F3F0F1;
     text-align: center;
-    height: 100vh;
-}
+    /* height: 100vh; */
+    }
 
-.feature_box {
-    height: 30vh;
+
+.feature_box, #features .row > div {
+    /*height: 30vh; */
     padding: 10px;
     display: flex;
     align-items: center; 
 }
 
-.feature_box h4 {
+#features > h2, #features figcaption {
     color: #F3F0F1;
-}
-
-.feature_box img {
-    max-width: 100%;
-    max-height: 100%;
 }
 
   #download {

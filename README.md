@@ -11,7 +11,10 @@ Website for PaddyOS - Submission to my first project at [Code Insitute](https://
     <img src="./img/logo_paddy.png" alt="PaddyOS logo" title="PaddyOS" align="right" height="45" />
 </a>
 
-# PaddyOS
+Note: PaddyOS is a fictional computer operative system. The aim of this project is to promote this software to the end user. 
+
+
+# Official Website for PaddyOS
 
 Official Website for PaddyOS
 
@@ -23,13 +26,59 @@ PaddyOS is a robust and reliable operative system based on Linux for everyone, f
 
  
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+### Strategy and Initial Stage of my Project
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+A medium was sought to promote a new operative system created by a pioneering group of Irish developers. This medium must be available 24/7 to potential international consumers.
+
+I have concluded that the easiest way to share software is via the Internet. Therefore I've researched several websites of other popular and non-popular operative systems, including:
+- Windows 10 (https://www.microsoft.com/en-ie/windows/get-windows-10)
+- Ubuntu (https://ubuntu.com/)
+- Manjaro (https://manjaro.org/)
+- Linux Mint (https://linuxmint.com/)
+
+
+### Scope of this Project
+
+* The simplest form of promoting PaddyOS on the web requires HTML + CSS as core technologies for a static website
+* Website must be available 24/7, so decision has been made to deploy to Github and Gitpages (see Deployment section for more details)
+* 3 sections are required, so I've chosen the following:
+    * Introduction (showcasing the "What is" and "Why use this")
+    * Download (Access to download PaddyOS)
+    * Contact Form (ability to contact us for getting involved and feedback)
+
+### Structure
+
+As visitors to website may or not be competent in computer driving, decision was made to organize the website as a single site where user can scroll trough sections.
+
+I've decided to include a main menu, so users can quickly navigate to their prefered section.
+
+
+### Skeleton
+
+To be faithful to the structure established above, the overall website should be divided in 3 section as shown below:
+
+<img src="./wireframes/wireframe1.png">
+
+To avoid a lenghty readme file, please visit [Wireframing Project PaddyOS Website](https://codeinstitute.net) for further study into the skeleton of the website.
+
+
+### Surface
+
+To emphasize project being led by developers in Ireland, decision has been made to include a color scheme based on the green color as per below:
+* Main Color: <span style="color:#F3F0F1;background-color:#5C7D61;">#5C7D61</span>
+* Main ("white") background/font: <span style="color:#5C7D61;background-color:#F3F0F1;">#F3F0F1</span>
+* Dark Shades: <span style="color:#F3F0F1;background-color:#122D23;">#122D23</span>
+* Slightly lighter accent from main color: <span style="color:#F3F0F1;background-color:#8DB49E;">#8DB49E</span>
+* Slightly darker accent from main color: <span style="color:#F3F0F1;background-color:#7B9E8C;">#7B9E8C</span>
+
+Note that fonts and main "white" background is not exacly white but an easier to the eyes color #F3F0F1.
+
+Logo: Every product/brand should have a logo, so I've created a quick logo based on color #27cc9d which would showcase a balanced shape and caos in form of lines: 
+<br> <img src="./img/logo_paddy.png" alt="PaddyOS logo" title="PaddyOS" height="45" />
+
+
+
 
 ## Features
 
@@ -50,8 +99,28 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
+### Tools Utilized during development of the website:
+* A desktop PC with Linux [Pop!_OS](https://pop.system76.com/) Operative System installed
+* [Visual Studio Code](https://code.visualstudio.com/) for manipulating .html .css and .md files
+* [GIMP](https://www.gimp.org/) or GNU Image Manipulation Program to manipulate images utilized in this project (example paste picture inside Laptop screen)
+* [WireframeSketcher](https://wireframesketcher.com/) to sketch visual aspect of website prior to development
+* The following browsers for compatibility & testing purposes (see Testing section for further details):
+    * [Chromium](https://www.chromium.org/)
+    * [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+    * [Microsoft Edge](https://www.microsoftedgeinsider.com/en-us/)
+    * [Mobile Google Chrome](https://play.google.com/store/apps/details?id=com.android.chrome)
+
+### Technologies/Tools incorporated into the website:
+- [HTML5](https://www.w3.org/)
+    - Project based **HTML5** for compatibility reasons, as all major browsers support it
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+    - Cascading Style Sheets or **(CSS)** standard is also supported by all major browsers for styling the website
+- [Bootstrap](https://getbootstrap.com/)
+    - Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
+- [Font Awesome](https://fontawesome.com/)
+    - Icons utilized in this project are fetched from **Font Awesome**
 
 
 ## Testing
@@ -131,6 +200,8 @@ Requirement of planes of UX and write on readme
 Contact form and validation is required and requires something saying thank you (bootstrap modal?, open new page?)
 - Dont overdo it
 - book right away mentor session
+How to run locally explanation (how to git clone and double click html) 
+testing (tools, how to test, screenshots? gif?)
 
 
 Tablet
@@ -142,4 +213,8 @@ Desktop
 Questions:
 
 Where do upload wireframe? readme?
+
+
+
+Scope:
 
