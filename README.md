@@ -11,7 +11,7 @@ Website for PaddyOS - Submission to my first project at [Code Insitute](https://
     <img src="./img/logo_paddy.png" alt="PaddyOS logo" title="PaddyOS" align="right" height="45" />
 </a>
 
-Note: PaddyOS is a fictional computer operative system. The aim of this project is to promote this software to the end user. 
+Note: PaddyOS is a fictional computer operating system. The aim of this project is to promote this software to the end user. 
 
 
 # Official Website for PaddyOS
@@ -20,20 +20,20 @@ Official Website for PaddyOS
 
 ## What is PaddyOS?
 
-PaddyOS is a robust and reliable operative system based on Linux for everyone, featuring:
-* No-nonsense and easy to learn UI with everything right where you need. We don't use "bloatware" or other nuisances.
-* PaddyOS is free to install, as we beleive that everyone should have access to a reliable system without costs and control. The Computer is yours, why should you pay or be tracked by adds?
+PaddyOS is a robust and reliable operating system based on Linux for everyone, featuring:
+* No-nonsense and easy to learn UI with everything right where you need it. We don't use "bloatware" or other nuisance.
+* PaddyOS is free to install, as we beleive that everyone should have access to a reliable system without cost. The computer is yours, why should you pay extra or be tracked by adds?
 
  
 ## UX
 
-In this section, I will explain the adoption of the five planes of UX design.
+In this section, I will explain the adoption of the Five Planes of UX design.
 
 ### Strategy and Initial Stage of my Project
 
-A medium was sought to promote a new operative system created by a pioneering group of Irish developers. This medium must be available 24/7 to potential international consumers.
+A medium was sought to promote a new operating system created by a pioneering group of Irish developers. This medium must be available 24/7 to potential customers around the globe.
 
-I have concluded that the easiest way to share software is via the Internet. Therefore I've researched several websites of other popular and non-popular operative systems, including:
+I have concluded that the easiest way to share software is via the Internet. Therefore I have researched several websites of other popular operating systems, including:
 - Windows 10 (https://www.microsoft.com/en-ie/windows/get-windows-10)
 - Ubuntu (https://ubuntu.com/)
 - Manjaro (https://manjaro.org/)
@@ -42,23 +42,23 @@ I have concluded that the easiest way to share software is via the Internet. The
 
 ### Scope of this Project
 
-* The simplest form of promoting PaddyOS on the web requires HTML + CSS as core technologies for a static website
+* The simplest form of promoting PaddyOS on the web is a static website which requires HTML + CSS as core technologies
 * Website must be available 24/7, so decision has been made to deploy to Github and Gitpages (see Deployment section for more details)
-* 3 sections are required, so I've chosen the following:
-    * Introduction (showcasing the "What is" and "Why use this")
-    * Download (Access to download PaddyOS)
-    * Contact Form (ability to contact us for getting involved and feedback)
+* Three sections are required, so I have chosen the following:
+    * Introduction (showcasing the "What is" and "Why")
+    * Download (access to download PaddyOS)
+    * Contact Form (ability to contact us or send feedback)
 
 ### Structure
 
-As visitors to website may or not be competent in computer driving, decision was made to organize the website as a single site where user can scroll trough sections.
+As visitors to website may or not be proficient in computer driving, decision was made to organize the website as a single site where user can scroll trough sections.
 
-I've decided to include a main menu, so users can quickly navigate to their prefered section.
+I have decided to include the Main Menu for users to quickly navigate trough the website.
 
 
 ### Skeleton
 
-To be faithful to the structure established above, the overall website should be divided in 3 section as shown below:
+To be adhere to the structure outlined above, the overall website should be divided into three sections as shown below:
 
 <img src="./wireframes/wireframe1.png">
 
@@ -67,7 +67,7 @@ To avoid a lenghty readme file, please visit [Wireframing Project PaddyOS Websit
 
 ### Surface Design
 
-To emphasize project being led by developers in Ireland, decision has been made to include a color scheme based on the green color as per below:
+To emphasize the origin of the project, decision was made to include a color scheme based on the green color as below:
 * Main Color: <span style="color:#F3F0F1;background-color:#5C7D61;">#5C7D61</span>
 * Main ("white") background/font: <span style="color:#5C7D61;background-color:#F3F0F1;">#F3F0F1</span>
 * Dark Shades: <span style="color:#F3F0F1;background-color:#122D23;">#122D23</span>
@@ -76,35 +76,33 @@ To emphasize project being led by developers in Ireland, decision has been made 
 
 Note that fonts and main "white" background is not exacly white but an easier to the eyes color #F3F0F1.
 
-Logo: Every product/brand should have a logo, so I've created a quick logo based on color #27cc9d which would showcase a balanced shape and caos in form of lines: 
-<br> <img src="./img/logo_paddy.png" alt="PaddyOS logo" title="PaddyOS" height="45" />
+Logo: Every product/brand should have a logo, so I have created a simple logo based on color #27cc9d which would showcase a balanced shape and chaos in form of lines: 
+<br> <img src="./img/logo_paddy.png" alt="PaddyOS logo" title="PaddyOS" height="60" />
 
  
 ## Features
 * Introduction Screen
-    * First section presented to user with minimalistic approach and buttons to most important sections
-* What is / Features page
-    * Section for end user to get an "at glance" overview of the software and it's capabilities
+    * First section presented to a user with the minimalistic approach and buttons to the most important sections.
+* "What is" / Features page
+    * Section for the end user to get an "at glance" overview of the software and its capabilities.
 * Download
-    * Download section to allow user download the software for installation
-* Contact Us Form
-    * Easy to use medium to contact developers for any queries or feedback
+    * Download section allows the user download the software for installation.
+* Contact Us form
+    * Easy to use medium to contact developers for any queries or feedback.
 
-* Website is mobile friendly and optimized for right handed use (menu is on the right side)
-* Website compatible with Dark Mode (you can test with https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
-* Website is also optimized for faster loading thanks to Lazy Loading API (https://web.dev/browser-level-image-lazy-loading/)
+* Website is mobile-friendly and optimized for right handed use (menu is on the right side)
+* Website is compatible with Dark Mode (you can test with https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
+* Website is also optimized for faster loading thanks to the Lazy Loading API (https://web.dev/browser-level-image-lazy-loading/)
 
 ### Ideas / Future Features
-- Forum: Place where users can interact with developers or other users 
-- FAQ: Most commonly asked questions & answers in a searchable format
-- Newsletter or RSS
+* Forum: An online place where users can interact with developers or other users 
+* FAQ: Most commonly asked questions & answers in a searchable format
+* Newsletter or RSS
 
-## Technologies Used
-
-In this section 
+## Technologies used
 
 ### Tools Utilized during development of the website:
-* A desktop PC with Linux [Pop!_OS](https://pop.system76.com/) Operative System installed
+* A desktop PC with Linux [Pop!_OS](https://pop.system76.com/) operating system installed
 * [Visual Studio Code](https://code.visualstudio.com/) for manipulating .html .css and .md files
 * [GIMP](https://www.gimp.org/) or GNU Image Manipulation Program to manipulate images utilized in this project (example paste picture inside Laptop screen)
 * [WireframeSketcher](https://wireframesketcher.com/) to sketch visual aspect of website prior to development
@@ -130,8 +128,7 @@ In this section
 
 ## Testing
 
-
-
+***Work on Progress***
 
 
 ## Deployment
@@ -151,7 +148,7 @@ In this section
 
 ### Acknowledgements
 
-- I'm a big fan of Linux and open source colaboration. My inspiration came from the great work on desktop Linux by project like Ubuntu (https://ubuntu.com/), Manjaro (https://manjaro.org/) and Debian (https://linuxmint.com/)
+- I'm a big fan of Linux and open source collaboration. My inspiration came from the great work on desktop Linux by project like Ubuntu (https://ubuntu.com/), Manjaro (https://manjaro.org/) and Debian (https://linuxmint.com/)
 
 ----
 
