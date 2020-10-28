@@ -27,6 +27,8 @@ PaddyOS is a robust and reliable operative system based on Linux for everyone, f
  
 ## UX
 
+In this section, I will explain the adoption of the five planes of UX design.
+
 ### Strategy and Initial Stage of my Project
 
 A medium was sought to promote a new operative system created by a pioneering group of Irish developers. This medium must be available 24/7 to potential international consumers.
@@ -126,10 +128,11 @@ In this section
     - Icons utilized in this project are fetched from **Font Awesome**
 
 
-
 ## Testing
 
-***Work on Progress***
+
+
+
 
 ## Deployment
 
@@ -168,3 +171,15 @@ Mobile
 Desktop
 
 -----------
+
+** Final Feedback: **
+
+In UX section, explain at the beginning the breakdown
+
+test section ()
+form:
+press submit and see error message
+fill in first field and then click submit 
+
+deployment section
+mention git clone, download zip file, deployment to gitpages

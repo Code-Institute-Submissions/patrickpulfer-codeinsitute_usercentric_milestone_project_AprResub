@@ -50,38 +50,65 @@
         margin-left:30px;
     }
 
+/* Form Defaults */
+    input[type="checkbox"].form-check-input + label {
+        color: #5C7D61;
+    }
+
+    input[type="checkbox"].form-check-input:checked + label {
+        color: #5C7D61;
+    }
+
 
 /* Sections */
 
-    #what_is > h2 {
+    #what_is > h2, #download > h2, #features > h2, #contact_us > h2 {
         text-align: center;
-        padding: 40px 0px 10px 0px;
+        padding: 50px 0px 10px 0px;
     }
 
     #what_is .row {
         padding-bottom: 10px;
     }
 
-  #features {
-    background-color: #5C7D61;
-    color: #F3F0F1;
-    text-align: center;
-    /* height: 100vh; */
+    #features, #contact_us {
+        background-color: #5C7D61;
+        color: #F3F0F1;
+        text-align: center;
     }
 
 
-.feature_box, #features .row > div {
-    /*height: 30vh; */
-    padding: 10px;
-    display: flex;
-    align-items: center; 
-}
+    .feature_box, #features .row > div {
+        padding: 10px;
+        display: flex;
+        align-items: center; 
+    }
 
-#features > h2, #features figcaption {
-    color: #F3F0F1;
-}
+    #features > h2, #features figcaption, #contact_us > h2 {
+        color: #F3F0F1;
+    }
 
-  #download {
-      background-color: #122D23;
-      color: #F3F0F1;
-  }
+    #download, .modal-content {
+        background-color: #F3F0F1;
+        color: #5C7D61;
+    }
+
+    #download h4, #download .card, #download .btn {
+        color: #F3F0F1;
+    }
+
+    #download .card {
+        background-color: #5C7D61;
+    }
+
+    #download .btn {
+        background-color: #122D23;
+    }
+
+    #contact_us {
+
+    }
+
+    footer {
+        background-color: #122D23;
+    }
