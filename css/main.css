@@ -67,7 +67,7 @@
 
 /* Default Color Scheme */
 
-    #features, #contact_us, #features > h2, #features figcaption, #contact_us > h2 {
+    #features, #contact_us, #features > h2, #features figcaption, #contact_us > h2, .jumbotron {
         background-color: #5C7D61;
         color: #F3F0F1;
     }

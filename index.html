@@ -9,7 +9,7 @@
  |_| \__,_\__,_\__,_|\_, |\___/|___/
                      |__/           
  
-                       Version 0.0.1
+                       Version 0.1.1
  
 -->
 
@@ -54,7 +54,7 @@
         <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
             <ul class="navbar-nav ml-auto flex-nowrap">
                 <li class="nav-item">
-                    <a class="nav-link" href="#what_is">News</a>
+                    <a class="nav-link" href="#what_is">Learn More</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#features">Features</a>
@@ -67,9 +67,7 @@
                       Community
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
+                      <a class="dropdown-item" href="#contact_us">Contact Us</a>
                     </div>
                 </li>
 
@@ -134,7 +132,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
-                        <p>Office is already installed!<br><br>PaddyOS comes with a suite of professional office apps, such as Writter, Spreadsheets, Presentations all for FREE!</p>
+                        <p>Office is already installed!<br><br>PaddyOS comes with a suite of professional office apps, such as Writter, Spreadsheets and Presentations, all for FREE!</p>
                     </div>
                     <div class="col-sm-12 col-md-6 order-first order-md-2">
                         <figure class="figure">
@@ -151,7 +149,7 @@
                         </figure>
                     </div>
                     <div class="col-sm-12 col-md-6">
-                        <p>Utilitarian meets beautiful modern design!<br><br>From Light- to Darkmode, the UI has been designed with attention to detail, making sure it's pleasant to look at but also useful.</p>
+                        <p>Utilitarian meets beautiful modern design!<br><br>From Light- to Darkmode, the UI has been designed with attention to detail, making sure it is pleasant to look at but also useful.</p>
                     </div>
                 </div>
             </div>
@@ -198,7 +196,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <form id="contact_form">
+                        <form id="contact_form" method="POST" action="./thank_you.html">
                             <p>Please use this form to contact us about any queries or general feedback. We will respond in a few days.</p>
                             <div class="form-row">
                               <div class="form-group col-md-6">
@@ -243,7 +241,7 @@
             </button>
             </div>
             <div class="modal-body">
-                <form>
+                <form method="POST" action="./thank_you.html">
                     <div class="form-row">
                         <div class="col-md-6 mb-3">
                             <label for="dev_fname">First name</label>
