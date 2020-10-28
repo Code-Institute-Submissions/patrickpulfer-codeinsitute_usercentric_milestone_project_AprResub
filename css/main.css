@@ -17,6 +17,11 @@
         padding: 10px;
     }
 
+    #what_is > h2, #download > h2, #features > h2, #contact_us > h2 {
+        text-align: center;
+        padding: 50px 0px 10px 0px;
+    }
+
 
 /* Bootstrap Navbar */
 
@@ -60,31 +65,10 @@
     }
 
 
-/* Sections */
+/* Default Color Scheme */
 
-    #what_is > h2, #download > h2, #features > h2, #contact_us > h2 {
-        text-align: center;
-        padding: 50px 0px 10px 0px;
-    }
-
-    #what_is .row {
-        padding-bottom: 10px;
-    }
-
-    #features, #contact_us {
+    #features, #contact_us, #features > h2, #features figcaption, #contact_us > h2 {
         background-color: #5C7D61;
-        color: #F3F0F1;
-        text-align: center;
-    }
-
-
-    .feature_box, #features .row > div {
-        padding: 10px;
-        display: flex;
-        align-items: center; 
-    }
-
-    #features > h2, #features figcaption, #contact_us > h2 {
         color: #F3F0F1;
     }
 
@@ -97,18 +81,51 @@
         color: #F3F0F1;
     }
 
+/* Sections */
+
+    #what_is .row {
+        padding-bottom: 10px;
+    }
+
+
+
+    #features {
+        text-align: center;
+    }
+
+    #features .row > div {
+        padding: 10px;
+        display: flex;
+        align-items: center; 
+    }
+
     #download .card {
         background-color: #5C7D61;
     }
 
-    #download .btn {
+    #download .btn, #contact_us .btn {
         background-color: #122D23;
     }
 
-    #contact_us {
+    #contact_us  form {
+        position: relative;
+        border: 1px solid #F3F0F1;
+        border-radius: 5px;
+        padding: 10px;
+    }
 
+    .quote {
+        font-size: 24px;
+    }
+
+    .quote_box {
+        margin: auto;
     }
 
     footer {
         background-color: #122D23;
+        color: #F3F0F1;
+        text-align: center;
+        padding: 10px 0px;
+        
     }
