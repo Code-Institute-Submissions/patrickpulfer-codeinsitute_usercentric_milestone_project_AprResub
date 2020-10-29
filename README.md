@@ -128,13 +128,97 @@ Logo: Every product/brand should have a logo, so I have created a simple logo ba
 
 ## Testing
 
-***Work on Progress***
+As a developer, I understand that user feedback is very important, especially during testing phase.
+
+Therefore I have tested the website myself but also asked two different end users to test the website. 
+
+Tools used:
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
+* Browsers:
+    * [Chromium](https://www.chromium.org/)
+    * [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+    * [Microsoft Edge](https://www.microsoftedgeinsider.com/en-us/)
+    * [Mobile Google Chrome](https://play.google.com/store/apps/details?id=com.android.chrome)
+
+
+### Test 1 - Browser Compability
+1. Load the [Website hosted at GitPages](https://patrickpulfer.github.io/codeinsitute_usercentric_milestone_project/index.html) on all browsers mentioned above and look for inconsistencies
+
+*Passing Criteria*: Website renders correctly on any popular browser
+
+
+### Test 2 - Device Compatibility
+1. Load the [Website hosted at GitPages](https://patrickpulfer.github.io/codeinsitute_usercentric_milestone_project/index.html) on Chrome's DevTools, click the "Toogle Device toolbar" button and select different devices sizes to observe the breakpoints. Website should be legible on any size used.
+2. Load the [Website hosted at GitPages](https://patrickpulfer.github.io/codeinsitute_usercentric_milestone_project/index.html) on Google Chrome at a Mobile Device and observe if text is legible and pictures do load
+
+*Passing Criteria*: Website renders correctly on mobile / laptop
+
+### Test 3 - Errors at parsing HTML level
+1. Load the [Website hosted at GitPages](https://patrickpulfer.github.io/codeinsitute_usercentric_milestone_project/index.html) on Chrome's DevTools, click on "Console" and verify if any error messages do appear
+
+*Passing Criteria*: Website does not produce any error message
+
+### Test 4 - Errors at anchoring level
+1. Load the [Website hosted at GitPages](https://patrickpulfer.github.io/codeinsitute_usercentric_milestone_project/index.html) on any browser
+2. Click on any link found in the website, particulary
+    * Navigation Bar
+    * Starter Section
+    * Download Section (You may ignore the button "Download" at the bottom of the page of not doing anything)
+
+*Passing Criteria*: All links work as expected except the last "Download" button (not yet implemented)
+
+### Test 5 - Errors at form level
+1. Load the [Website hosted at GitPages](https://patrickpulfer.github.io/codeinsitute_usercentric_milestone_project/index.html) on any browser
+2. Scroll until you find the button to register yourself "Developer Edition"
+3. Submit the form while empty and observe validation
+4. Repeat step 3 but add a field each time
+5. Close the modal and perform same test on Contact Us form
+
+*Passing Criteria*: AForm validation should prevent you to submit if one of the fields are missing
+
+### Report
+* Two end users + myself reported no issues during testing
 
 
 ## Deployment
 
-***Work on Progress***
+### Current Deployment
+The website is currently available at:
+* [GitPages](https://patrickpulfer.github.io/codeinsitute_usercentric_milestone_project/index.html)
+* [GitHack](https://raw.githack.com/patrickpulfer/codeinsitute_usercentric_milestone_project/main/index.html)
 
+I have used the following method to deploy this website at GitPages but may also use this workflow to deploy any websites at GitPages:
+1. Navigate to your GitHub Project
+2. On the top of your project files, there is a menu bar. Click on "Settings"
+3. In your settings view, scroll down until the section "GitHub Pages"
+4. Here you can chose the Source (preferentially main branch) and Save to deploy
+5. Note the URL at "Your site is published at XXXXXX". This will be the URL to share
+
+### Further Deployment
+
+You may deploy this website on your local machine for testing purposes. 
+
+On ***Linux***, you can easilly do this on your terminal if you have git installed:
+
+```
+cd <to your prefered folder>
+git clone https://github.com/patrickpulfer/codeinsitute_usercentric_milestone_project.git
+
+```
+To run, simply double click the index.html file in the target folder or run the following command:
+
+```
+xdg-open ./codeinsitute_usercentric_milestone_project/index.html
+```
+   
+
+Downloading the source code as Zip file from GitHub is also a valid method for ***Linux*** and ***Windows***. On the project page, look for the Code button with arrow down as shown below:
+
+<img src="./img/github_zip.png">
+
+Note: You will have the extract the contents of your .zip file with your OS's decompression tool. [7zip](https://www.7-zip.org/download.html) is a good alternative.
+
+Once unzipped, look for the index.html file and double click it.
 
 ## Credits
 
@@ -149,34 +233,3 @@ Logo: Every product/brand should have a logo, so I have created a simple logo ba
 ### Acknowledgements
 
 - I'm a big fan of Linux and open source collaboration. My inspiration came from the great work on desktop Linux by project like Ubuntu (https://ubuntu.com/), Manjaro (https://manjaro.org/) and Debian (https://linuxmint.com/)
-
-----
-
-Mentor Feedback:
-Stick to 3-4 sections
-Idea is novel
-Requirement to showcase wireframes (not mockups) / use balsamic
-Requirement of planes of UX and write on readme
-Contact form and validation is required and requires something saying thank you (bootstrap modal?, open new page?)
-- Dont overdo it
-How to run locally explanation (how to git clone and double click html) 
-testing (tools, how to test, screenshots? gif?)
-
-
-Tablet
-Mobile
-Desktop
-
------------
-
-** Final Feedback: **
-
-In UX section, explain at the beginning the breakdown
-
-test section ()
-form:
-press submit and see error message
-fill in first field and then click submit 
-
-deployment section
-mention git clone, download zip file, deployment to gitpages
