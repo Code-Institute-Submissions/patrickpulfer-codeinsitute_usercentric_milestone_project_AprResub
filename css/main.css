@@ -41,7 +41,7 @@
         min-height: 500px;
         background-image: url('../img/office2.jpg');
         background-size: cover;
-        background-position: center;
+        background-position: center; 
         background-repeat: no-repeat;
         color: #F3F0F1;
     }

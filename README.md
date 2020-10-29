@@ -62,7 +62,7 @@ To be adhere to the structure outlined above, the overall website should be divi
 
 <img src="./wireframes/wireframe1.png">
 
-To avoid a lenghty readme file, please visit [Wireframing Project PaddyOS Website](https://codeinstitute.net) for further study into the skeleton of the website.
+To avoid a lenghty readme file, please visit [Wireframing Project PaddyOS Website](./wireframes/README.md) for further study into the skeleton of the website.
 
 
 ### Surface Design
