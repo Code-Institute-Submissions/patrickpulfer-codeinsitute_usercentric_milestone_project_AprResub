@@ -8,7 +8,7 @@ Website for PaddyOS - Submission to my first project at [Code Insitute](https://
 <img src="https://img.shields.io/github/languages/count/patrickpulfer/codeinsitute_usercentric_milestone_project?style=for-the-badge">
 
 <a href="">
-    <img src="./img/logo_paddy.png" alt="PaddyOS logo" title="PaddyOS" align="right" height="45" />
+    <img src="assets/images/logo_paddy.png" alt="PaddyOS logo" title="PaddyOS" align="right" height="45" />
 </a>
 
 Note: PaddyOS is a fictional computer operating system. The aim of this project is to promote this software to the end user.
