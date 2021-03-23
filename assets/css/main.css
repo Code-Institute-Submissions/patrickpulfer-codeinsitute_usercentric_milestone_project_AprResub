@@ -1,0 +1,150 @@
+/* Defaults */
+body {
+  background-color: #f3f0f1;
+  align-content: center;
+}
+
+h2,
+h3,
+h4 {
+  color: #5c7d61;
+}
+
+.btn {
+  background-color: #5c7d61;
+  color: #f3f0f1;
+}
+
+section {
+  padding: 10px;
+}
+
+#what_is > h2,
+#download > h2,
+#features > h2,
+#contact_us > h2 {
+  text-align: center;
+  padding: 50px 0px 10px 0px;
+}
+
+/* Bootstrap Navbar */
+
+.navbar,
+.dropdown-item,
+.dropdown-menu {
+  background-color: #5c7d61;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-text,
+.navbar-brand-two .second_navbar_brand,
+.navbar .navbar-nav .nav-link,
+.dropdown-item,
+.bars_color {
+  color: #f3f0f1;
+}
+
+/* Header */
+
+.header {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("../images/office2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #f3f0f1;
+}
+
+.header_container {
+  background-color: rgba(46, 46, 46, 0.4) !important;
+  padding: 10px 0px;
+}
+
+.header_button_right {
+  margin-left: 30px;
+}
+
+/* Form Defaults */
+input[type="checkbox"].form-check-input + label {
+  color: #5c7d61;
+}
+
+input[type="checkbox"].form-check-input:checked + label {
+  color: #5c7d61;
+}
+
+/* Default Color Scheme */
+
+#features,
+#contact_us,
+#features > h2,
+#features figcaption,
+#contact_us > h2,
+.jumbotron {
+  background-color: #5c7d61;
+  color: #f3f0f1;
+}
+
+#download,
+.modal-content {
+  background-color: #f3f0f1;
+  color: #5c7d61;
+}
+
+#download h4,
+#download .card,
+#download .btn {
+  color: #f3f0f1;
+}
+
+/* Sections */
+
+#what_is .row {
+  padding-bottom: 10px;
+}
+
+#features {
+  text-align: center;
+}
+
+#features p {
+  font-size: 20px;
+}
+
+#features .row > div {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#download .card {
+  background-color: #5c7d61;
+}
+
+#download .btn,
+#contact_us .btn {
+  background-color: #122d23;
+}
+
+#contact_us form {
+  position: relative;
+  border: 1px solid #f3f0f1;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.quote {
+  font-size: 24px;
+}
+
+.quote_box {
+  margin: auto;
+}
+
+footer {
+  background-color: #122d23;
+  color: #f3f0f1;
+  text-align: center;
+  padding: 10px 0px;
+}
