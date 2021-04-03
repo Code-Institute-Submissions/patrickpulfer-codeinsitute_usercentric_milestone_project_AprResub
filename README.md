@@ -80,6 +80,12 @@ PaddyOS is a robust and reliable operating system based on Linux for everyone, f
 
 <br />
 
+## Development
+
+If you are curious about the process of the development of this project, please [click here](./documentation/development.md).
+
+<br>
+
 ## Deployment
 
 ### Current Deployment
